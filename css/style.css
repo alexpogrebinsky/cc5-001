@@ -34,12 +34,12 @@ h3 {
 
 
 p.one {
-    font-family:'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 32px;
     font-weight: 100pt;
     color: white;
     padding: 10px;
-    padding-left:20px;
+    padding-left: 20px;
 }
 
 p.two {
@@ -48,8 +48,8 @@ p.two {
     font-weight: 100pt;
     color: white;
     padding: 10px;
-    text-align:center;
-	line-height: 2em;
+    text-align: center;
+    line-height: 2em;
     padding-left: 20px;
 }
 
@@ -64,48 +64,49 @@ p.three {
 }
 
 a.one {
-	color: white;
+    color: white;
 }
 
 a.two {
-	color: orange;
+    color: orange;
 }
 
 p.four {
     font-family: 'Work Sans', sans-serif;
     color: black;
-	font-size: 26px;
+    font-size: 26px;
     letter-spacing: .8px;
 }
 
 p.five {
     font-family: 'Work Sans', sans-serif;
     color: black;
-	font-size: 16px;
+    font-size: 16px;
     letter-spacing: .8px;
 }
 
 p.six {
     font-family: 'Work Sans', sans-serif;
     color: orange;
-	font-size: 26px;
-    letter-spacing: 1.8px;
-}
-p.seven {
-    font-family: 'Work Sans', sans-serif;
-    color: orange;
-	font-size: 26px;
+    font-size: 26px;
     letter-spacing: 1.8px;
 }
 
-li, ul,ol {
+p.seven {
+    font-family: 'Work Sans', sans-serif;
+    color: orange;
+    font-size: 26px;
+    letter-spacing: 1.8px;
+}
+
+li, ul, ol {
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     font-weight: 100pt;
     color: white;
     padding: 10px;
     padding-left: 20px;
-    text-align:left;
+    text-align: left;
     line-height: 1.2px;
 }
 
@@ -118,9 +119,9 @@ li, ul,ol {
 .b1 {
     width: 80%;
     height: auto;
-	margin: 0 auto;
+    margin: 0 auto;
     background: black;
-   padding:15px;
+    padding: 15px;
 }
 
 .b2 {
@@ -163,18 +164,16 @@ hr.one {
 
 
 .col1 {
-    float:left;
-    width:33.33%;
+    float: left;
+    width: 33.33%;
     padding: 4px;
-    background-color:none;
-
-
+    background-color: none;
 }
 
 .row1:after {
-    content:"";
-    display:table;
-    clear:both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 img.one {
@@ -198,13 +197,12 @@ img.three {
 */
 
 figcaption {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-size: 18px;
 }
 
 table {
-    border: 1px solid black;
     width: 80%;
     height: auto;
     color: white;
@@ -216,16 +214,16 @@ table {
 }
 
 td {
+    color: yellow;
+    padding: 10px;
     border: 1px dashed grey;
-    padding: 5px;
 }
 
-tr:hover {
-    background-color: orange;
-}
+    td:hover {
+        background-color: red;
+    }
 
 fieldset {
     color: white;
     font-family: 'Work Sans', sans-serif;
-    line-height: 2em;
 }
