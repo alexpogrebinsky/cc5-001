@@ -204,7 +204,7 @@ figcaption {
 }
 
 table {
-    border: 1px solid black;
+    
     width: 80%;
     height: auto;
     color: white;
@@ -215,3 +215,16 @@ table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+td {
+    color: yellow;
+    padding: 10px;
+    border: 1px dashed grey;
+}
+
+td:hover {
+    background-color: red;
+}
+
+fieldset {color: white;
+          font-family: 'Work Sans', sans-serif;
+}
