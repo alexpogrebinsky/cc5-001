@@ -215,3 +215,17 @@ table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+td {
+    border: 1px dashed grey;
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: orange;
+}
+
+fieldset {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 2em;
+}
